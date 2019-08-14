@@ -12,4 +12,8 @@ def hello_world():
 def hi_world():
 	return 'hi World!!'
 
+@app.route('/day')						# atribui uma rota ao hi_world
+def nice_day():
+	return 'Have a nice day!!'
+
 app.run()							# roda a aplicacao
